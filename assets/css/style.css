@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg-about: #f9f8f8; /* About section background */
+  --color-active: #7eb693; /* Active element color */
+  --color-button: #274c5b; /* Button and main color */
+  --color-delete: #b8b8b8; /* Delete or disabled color */
+  --color-feedback: #525c60; /* Feedback paragraph color */
+  --radius-color: #7eb693; /* Border radius color */
+  --bg-light: #f1f1f1; /* General light background */
+  --bg-highlight: #eff6f1; /* Highlighted background */
+  --color-button-2: #EFD372; /* Button bg color */
+}
+
+.container {
+  padding: 0px 30px;
+}
+
+
+/* navbar */
+#navbar {
+    width: 1440px;
+    height: 72px;
+    margin: 40px 0px;
+}
+
+.navbar-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar-items a {
+    color: var(--color-button);
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* header */
+
+#header {
+  background-image: url(../images/home-p/1-background.png);
+  max-width: 1440px;
+  height: 913px;
+  width: 100%;
+}
+
+.header-infos {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}
+
+.header-infos p {
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 64.8px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  color: var(--radius-color);
+}
+
+.header-infos h1 {
+  max-width: 496px;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 700;
+  color: var(--color-button);
+  margin: 15px 0px 30px 0;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 219px;
+  height: 82px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--color-button-2);
+}
+
+.header-btn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #335b6b;
+}
+
+/* main section */
+
+.main-section {
+  margin: 140px 0;
+}
+
+.main-section__control {
+  display: flex;
+  gap: 50px;
+}
+
+/* about section */
+
+#about-section {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  height: 1006px;
+  background-color: var(--bg-about);
+}
+
+.about-control {
+  display: flex;
+  align-items: center;
+  max-width: 1380px;
+  width: 100%;
+  height: 736px;
+  gap: 30px;
+}
+
+.about-section__infos {
+  align-self: flex-start;
+}
+
+.about-infos__2 {
+  display: flex ;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 30px;
+}
+
+.about-infos__1 h2 {
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--radius-color);
+}
+
+.about-infos__1 h1 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+
+.about-infos__1 p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+  margin-top: 22px;
+}
+
+.about-infos__foods {
+  display: flex;
+  width: 675px;
+  height: 104px;
+}
+
+.about-infos__img {
+  max-width: 100px;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+
+.about-infos__text h3 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--color-button);
+  margin-bottom: 10px;
+}
+
+.about-infos__text p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+}
+
+
+.about-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 199px;
+  height: 82px;
+  border-radius: 16px;
+  border: none;
+  padding-left: 30px;
+  margin-top: 50px;
+  background-color: var(--color-button);
+  color: white;
+  cursor: pointer;
+}
+
+
+.about-btn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #335b6b;
+  cursor: pointer;
+}
