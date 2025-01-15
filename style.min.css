@@ -24,6 +24,7 @@
 
 .container {
   padding: 0px 30px;
+  
 }
 
 
@@ -60,7 +61,7 @@
 /* header */
 
 #header {
-  background-image: url(../images/home-p/1-background.png);
+  background-image: url(https://i.ibb.co/4Y9GRRB/1-background.png);
   max-width: 1440px;
   height: 913px;
   width: 100%;
@@ -138,6 +139,7 @@
   max-width: 1440px;
   height: 1006px;
   background-color: var(--bg-about);
+  margin-bottom: 120px;
 }
 
 .about-control {
@@ -238,4 +240,112 @@
   border-radius: 50%;
   background-color: #335b6b;
   cursor: pointer;
+}
+
+/* our product */
+
+.product-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.product-title p {
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--radius-color);
+}
+
+.product-title h1 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1445px;
+  height: 1219.09px;
+  margin-bottom: 120px;
+}
+
+
+.product-card {
+  max-width: 447px;
+  height: 590px;
+  border-radius: 30px;
+  background-color: var(--bg-about);
+  cursor: pointer;
+}
+
+.product-infos {
+  padding: 30px 30px 20px 30px;
+}
+
+.product-vegetable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 118px;
+  height: 37px;
+  border-radius: 8px;
+  background-color: var(--color-button);
+  color: white;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.product-name {
+  height: 46px;
+  border-bottom: 1px solid;
+  margin-top: 20px;
+}
+
+.product-name h2 {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 49px;
+}
+
+.product-price div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-price p {
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: var(--color-delete);
+}
+
+.product-price h3 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+
+.product-price img {
+  width: 85px;
+  height: 19px;
 }
