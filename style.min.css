@@ -22,9 +22,14 @@
   --color-button-2: #EFD372; /* Button bg color */
 }
 
+.control {
+  max-width: 1440px; /* Maksimal kenglik */
+  margin: 0 auto; /* O'rtaga joylash */
+}
+
 .container {
   padding: 0px 30px;
-  
+
 }
 
 
@@ -271,9 +276,8 @@
 .product-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   max-width: 1445px;
-  height: 1219.09px;
   margin-bottom: 120px;
 }
 
@@ -509,3 +513,359 @@
   gap: 20px;
 }
 
+/* eco */
+
+.eco-control {
+  display: flex;
+  align-items: center;
+}
+
+.eco-left__img {
+  margin-left: -60px;
+}
+.eco-right__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 720px;
+  height: 623px;
+  border-radius: 30px 0px 0px 30px;
+  margin-left: -60px;
+  background-color: white;
+}
+
+.eco-title {
+  width: 620px;
+  height: 180px;
+}
+.eco-title p{
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--radius-color);
+}
+
+.eco-title h1 {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+
+.eco-infos {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 620px;
+  height: 318px;
+  margin-top: 30px;
+}
+
+.eco-infos h1 {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+
+.eco-infos p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+}
+
+/* abs */
+#abs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  width: 100%;
+  height: 860px;
+  background: #EFF6F1;
+}
+
+.abs-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* discver */
+.discover {
+  max-width: 1380px;
+  width: 100%;
+  height: 885.38px;
+  margin-top: 130px;
+}
+
+.discover-t {
+  color: var(--color-button)!important;
+}
+
+.discover-card {
+  display: flex;
+  gap: 30px;
+}
+
+.discover-cards {
+  position: relative;
+  margin-top: 70px;
+}
+
+.discover-infos {
+  position: absolute;
+  width: 610px;
+  height: 337px;
+  left: 30px;
+  border-radius: 30px;
+  margin-top: -290px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0px 2px 18px 0px #00000024;
+
+}
+
+.dicover-who {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.dicover-who p {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+
+.discover-main h1 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--color-button);
+}
+
+.discover-main p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+}
+
+.discover-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 45px;
+}
+
+.discover-more a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+
+.discover-more div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--color-button);
+  cursor: pointer;
+}
+
+
+/* contact */
+#contact {
+  display: flex;
+  align-items: center;
+  max-width: 1380px;
+  height: 320px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.contact-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1240px;
+  width: 100%;
+  height: 120px;
+}
+
+.ovar-flow {
+  width: 100%;
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 70px;
+}
+.contact-control .contact-input {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.contact-control h1 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact-control input {
+  width: 350px;
+  height: 82px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  padding-left: 30px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+
+.contact-control input:focus {
+  border: 1px solid #ccc;
+}
+
+.contact-btn {
+  width: 197px;
+  height: 82px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--color-button);
+  color: white;
+}
+
+/* footer */
+
+.footer-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1440px;
+  height: 569px;
+
+}
+
+.contact-uc {
+  text-align: right;
+}
+.contact-uc .h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-button);
+  margin-bottom: 70px;
+}
+
+.contact-uc div {
+  margin-top: 40px;
+}
+
+.contact-uc div h1 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-button);
+}
+.contact-uc div a,p{
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+}
+
+.social-media {
+  width: 670px;
+  height: 369px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.footer-logo {
+  width: 200px;
+  height: 56px;
+  margin-bottom: 45px;
+}
+
+.social-media p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: var(--color-feedback);
+}
+
+.networking {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.tg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #EFF6F1;
+} 
+
+.utility h1{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-button);
+  margin-bottom: 70px;
+}
+
+.utility div p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-feedback);
+  margin-bottom: 30px;
+}
+
+.footer-extra {
+  max-width: 1440px;
+  width: 100%;
+  height: 81px;
+  padding: 20px 10px; /* Ichki bo'shliq */
+  text-align: center; /* Matnni markazlashtirish */
+  font-size: 14px;
+  color: #6c757d; /* Matn rangi */
+  border-top: 1px solid #eaeaea; /* Yuqori chegarasi */
+}
+
+
+.footer a {
+  color: #007bff; /* Havola rangi */
+  text-decoration: none; /* Chiziqni olib tashlash */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Hover effekt */
+}
